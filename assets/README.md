@@ -9,4 +9,4 @@
 * You can add your own animal in the input box, and it will be added to the group.  Click on that new selection to see the gifs.  Note, a set will be display each time you click a different button.
 
 ###  Additional work to complete.
-completed
+
