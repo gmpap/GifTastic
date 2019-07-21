@@ -9,39 +9,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body> 
+<body>
 
-<!--Div to hold the gif buttons-->
-<div id="gifButtons" class="container"> </div>
+    <!--Div to hold the gif buttons-->
+    <div id="gifButtons" class="container"> </div>
 
-<!-- <div class="container"> -->
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <!-- This is where the gifs go?????--> 
+    <!-- <div class="container"> -->
+    <!-- <div class="gifBox"> -->
+        <!-- This is where the gifs go?????-->
         <div id="gifs"></div>
-        
-    </div>
-        <!-- This is the submit Form for the add animals-->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <form id="gifForm" role="form">
-        <!-- </div> -->
-    </div>
 
+    <!-- </div> -->
+    <!-- This is the submit Form for the add animals
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <form id="gifForm" role="form">
+             </div> 
+    </div>
+-->
 
     <div class="form-group">
-    <!-- Just the Label for the form -->
+        <!-- Just the Label for the form -->
         <label for="topicInput">
             <h3>Add an Animal!</h3>
         </label>
+        
         <!--This is the input box-->
         <input type="text" id="animalInput">
+        <br>
+        <!-- The submit button-->
+        <input id="addNewGifBtn" type="submit" value="Add Your Animal" class="btn btn-primary">
     </div>
-    <!-- The submit button-->
-    <input id="addNewGifBtn" type="submit" value="Add Your Animal" class="btn btn-primary">
-
-    </form>
+    
 
 
     <script type="text/javascript" src="assets/javascript/app2.js"></script>
